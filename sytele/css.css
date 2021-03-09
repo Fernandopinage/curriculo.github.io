@@ -1,0 +1,253 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    font-family: 'Poiret One', cursive;
+    color: white;
+    text-decoration:none;
+}
+
+
+
+
+a :hover{
+
+    color: black;
+}
+
+
+
+.container{
+
+    max-width: 1000px;
+	margin: 30px auto;
+    border: 1px solid #0cabcf;
+    color: white;
+    
+}
+.conteudo{
+
+    box-shadow: 5px 5px  #333;
+    -webkit-box-shadow: 5px 5px 0 #333;
+    -moz-box-shadow: 5px 5px 0 #333;
+
+
+
+    max-width: 1000px;
+    height: 1790px;
+    margin: 299px auto;
+    border: 1px solid #0cabcf;
+    
+}
+.conteudo-row{
+    
+    margin: 40px 10px 10px 30px;
+    width: 500px;
+    float: left;
+    background-color: white;
+}
+.conteudo-skill{
+
+    background-color: white;
+    margin: 40px 10px 10px 30px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    
+}
+
+
+.img{
+
+    margin: 40px;
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+}
+
+.esquerda{
+
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: #0cabcf;
+    float: left;
+}
+.meio{
+   
+    
+    width: 400px;
+    height: 300px;
+    background-color: #0cabcf;
+    float: left;
+}
+.direita{
+   
+    
+    width: 300px;
+    height: 300px;
+    background-color: #0cabcf;
+    float: left;
+}
+
+
+#nome{
+
+    margin: 10px;
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#email{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 70px 0px 0px 10px;
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
+#numero{
+    font-family: 'Fjalla One', sans-serif;
+    margin: 5px 0px 0px 10px;
+    color: white;
+}
+#github{
+    
+    margin: 10px 0px 0px 80px;
+    font-size: 20px;
+}
+#linkedin{
+    
+    margin: 10px 0px 0px 80px;
+    font-size: 20px;
+}
+#github-logo{
+    width: 20px;
+    height: 20px;
+}
+#linkedin-logo{
+    width: 20px;
+    height: 20px;
+}
+.p{
+
+  font-size:15px;
+  color: #736e6e;
+}
+.p-titulo{
+
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #204f4a;
+}
+.p-descricao{
+
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #204f4a;
+}
+.p-empresa{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #204f4a;
+}
+.a-titulo :hover{
+
+    color: #0cabcf;
+}
+.menu{
+
+    margin: 0px 0px 0px 50px;
+    font-size: 20px;
+}
+.menu li{
+
+    color: #345c3c;
+}
+
+/* ---------------------------------------------------*/
+
+.badge {
+    padding: 1px 9px 2px;
+    font-size: 12.025px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #999999;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+
+  .badge-baixo {
+    padding: 1px 9px 2px;
+    font-size: 12.025px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: red;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+
+  .badge-medio {
+    padding: 1px 9px 2px;
+    font-size: 12.025px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: yellow;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+  .badge-alta {
+    padding: 1px 9px 2px;
+    font-size: 12.025px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: green;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+  .badge:hover {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .badge-danger:hover{
+    background-color: #990202;
+  }
+  .badge-error {
+    background-color: #b94a48;
+  }
+  .badge-error:hover {
+    background-color: #953b39;
+  }
+  .badge-warning {
+    background-color: #f89406;
+  }
+  .badge-warning:hover {
+    background-color: #c67605;
+  }
+  .badge-success {
+    background-color: #468847;
+  }
+  .badge-success:hover {
+    background-color: #356635;
+  }
+  .badge-info {
+    background-color: #3a87ad;
+  }
+  .badge-info:hover {
+    background-color: #2d6987;
+  }
+  .badge-inverse {
+    background-color: #333333;
+  }
+  .badge-inverse:hover {
+    background-color: #1a1a1a;
+  }
